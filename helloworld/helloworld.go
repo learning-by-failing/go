@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"LearnGo/helloworld/morestrings"
+)
 
 func main() {
-	fmt.Println("Hello, world.")
+	// moreStrings has to be built before importing, only functions starting in upper case are exported
+	fmt.Println(morestrings.ReverseRunes("ciao"))
 }
