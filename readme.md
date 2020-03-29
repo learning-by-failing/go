@@ -13,3 +13,7 @@ go mod init
 ```
 go install {module}
 ```
+* Running tests
+```
+go test
+```
