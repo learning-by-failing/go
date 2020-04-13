@@ -9,6 +9,8 @@ Examples and code are or inspired from official [golang documentation](https://g
 * [helloword](src/scripts/helloworld.go)
 * [variables](src/scripts/variables.go)
 * [pointers](src/scripts/pointers.go)
+* [environment variables](src/scripts/env-vars.go)
+* [constants](src/scripts/constants.go)
 ## Command (go tool)
 * create a module from the directory
 ```
