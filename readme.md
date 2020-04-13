@@ -6,7 +6,9 @@ Examples and code are or inspired from official [golang documentation](https://g
 
 ## Index
 * [Feaatures and basics](features.md)
-
+* [helloword](src/scripts/helloworld.go)
+* [variables](src/scripts/variables.go)
+* [pointers](src/scripts/pointers.go)
 ## Command (go tool)
 * create a module from the directory
 ```
