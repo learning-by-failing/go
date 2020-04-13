@@ -7,7 +7,8 @@ GOlang features
 * compile language (like C but simpler)
 * strongly typed
 * supports type inference: i.e. `a := 5.5` would be automatically declared like float.
-* case sensitive -> only functions with the first capital letters are exported 
+* case sensitive -> only functions with the first capital letters are exported
+* Slices are references contiguous portion of an array, with flexible length 
 
 ### Workspace
 We need three folder:

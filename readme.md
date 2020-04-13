@@ -11,6 +11,9 @@ Examples and code are or inspired from official [golang documentation](https://g
 * [pointers](src/scripts/pointers.go)
 * [environment variables](src/scripts/env-vars.go)
 * [constants](src/scripts/constants.go)
+* [functions](src/scripts/functions.go)
+* [array and slices](src/scripts/arrayAndSlices.go)
+
 ## Command (go tool)
 * create a module from the directory
 ```
