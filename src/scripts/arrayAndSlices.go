@@ -22,8 +22,8 @@ func main() {
 	fmt.Println("not part of the family are", notFamily)
 	friends = append(friends, "Ale")
 	fmt.Println("friends elements are", friends, "and capability is ", cap(friends))
-	for _, friend := range friends {
-		fmt.Println("friend is", friend)
+	for i, friend := range friends {
+		fmt.Println(i,"friend is", friend)
 	}
 	friendsAndOthers := append(friends, notFamily...)
 	fmt.Println("friends and others are", friendsAndOthers)

@@ -13,6 +13,7 @@ Examples and code are or inspired from official [golang documentation](https://g
 * [constants](src/scripts/constants.go)
 * [functions](src/scripts/functions.go)
 * [array and slices](src/scripts/arrayAndSlices.go)
+* [maps](src/scripts/maps.go)
 
 ## Command (go tool)
 * create a module from the directory
