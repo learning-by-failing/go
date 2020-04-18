@@ -5,7 +5,7 @@ This repository contains basic and simple examples, used to learn Go programming
 Examples and code are or inspired from official [golang documentation](https://golang.org/doc/code.html)
 
 ## Index
-* [Feaatures and basics](features.md)
+* [Features and basics](features.md)
 * [helloword](src/scripts/helloworld.go)
 * [variables](src/scripts/variables.go)
 * [pointers](src/scripts/pointers.go)
@@ -15,7 +15,7 @@ Examples and code are or inspired from official [golang documentation](https://g
 * [array and slices](src/scripts/arrayAndSlices.go)
 * [maps](src/scripts/maps.go)
 * [structs](src/scripts/structs.go)
-* [concurrency](s)
+* [concurrency](src/scripts/concurrency.go)
 
 ## Command (go tool)
 * create a module from the directory

@@ -29,13 +29,14 @@ type Circle struct {
 
 ### Concurrency (goroutine)
 [learn concurrency](https://github.com/golang/go/wiki/LearnConcurrency)
-* Lighter weight
+
+* Do not communicate by sharing memory; instead, share memory by communicating.
+* Go's concurrency model is **Actor model**, **Communicating sequential process** (using *channels* to passing massages)
 * Go manages Goroutins 
 * goroutines are built on top of Threads: less switching because i.e. when a thread is sleeping, simple go switch to
 another goroutine that is **less than schedule another Thread**.
 * Faster stat-up times
-* Safe communitcation between goroutines
-* Go's concurrency model is **Actor model**, **Communicating sequential process** (using *channels* to passing massages)
+* Safe communication between goroutines
 
 ### Workspace
 We need three folder:
