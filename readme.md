@@ -16,6 +16,8 @@ Examples and code are or inspired from official [golang documentation](https://g
 * [maps](src/scripts/maps.go)
 * [structs](src/scripts/structs.go)
 * [concurrency](src/scripts/concurrency.go) vs [no_concurrency](src/scripts/no_concurrency.go)
+* [channel](src/scripts/channel.go)
+* [channel fibonacci](src/scripts/channel_fibonacci.go)
 
 ## Command (go tool)
 * create a module from the directory

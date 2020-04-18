@@ -30,6 +30,8 @@ type Circle struct {
 ### Concurrency (goroutine)
 [learn concurrency](https://github.com/golang/go/wiki/LearnConcurrency)
 
+[concurrency tour](https://tour.golang.org/concurrency/1)
+
 * Do not communicate by sharing memory; instead, share memory by communicating.
 * Go's concurrency model is **Actor model**, **Communicating sequential process** (using *channels* to passing massages)
 * Go manages Goroutins 
