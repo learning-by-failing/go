@@ -27,6 +27,16 @@ type Circle struct {
 }
 ```
 
+### Concurrency (goroutine)
+[learn concurrency](https://github.com/golang/go/wiki/LearnConcurrency)
+* Lighter weight
+* Go manages Goroutins 
+* goroutines are built on top of Threads: less switching because i.e. when a thread is sleeping, simple go switch to
+another goroutine that is **less than schedule another Thread**.
+* Faster stat-up times
+* Safe communitcation between goroutines
+* Go's concurrency model is **Actor model**, **Communicating sequential process** (using *channels* to passing massages)
+
 ### Workspace
 We need three folder:
 * **source** folder where put the code
