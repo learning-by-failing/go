@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"math/rand"
-	"runtime"
 	"strconv"
 	"sync"
 	"time"
@@ -12,15 +11,11 @@ import (
 const messageNumber = 10
 
 var (
-	i       int64
 	waitGrp sync.WaitGroup
-	c       = make(chan int)
 )
 
 func main() {
-	runtime.GOMAXPROCS(1) // create 2 process maximum
 	waitGrp.Add(messageNumber)
-
 	for i := 0; i < messageNumber; i++ {
 		message := "message " + strconv.Itoa(i)
 		delay := time.Second * time.Duration(rand.Intn(messageNumber))

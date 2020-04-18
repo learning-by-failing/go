@@ -15,7 +15,7 @@ Examples and code are or inspired from official [golang documentation](https://g
 * [array and slices](src/scripts/arrayAndSlices.go)
 * [maps](src/scripts/maps.go)
 * [structs](src/scripts/structs.go)
-* [concurrency](src/scripts/concurrency.go)
+* [concurrency](src/scripts/concurrency.go) vs [no_concurrency](src/scripts/no_concurrency.go)
 
 ## Command (go tool)
 * create a module from the directory
