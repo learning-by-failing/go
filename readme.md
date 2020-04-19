@@ -18,6 +18,7 @@ Examples and code are or inspired from official [golang documentation](https://g
 * [concurrency](src/scripts/concurrency.go) vs [no_concurrency](src/scripts/no_concurrency.go)
 * [channel](src/scripts/channel.go)
 * [channel fibonacci](src/scripts/channel_fibonacci.go)
+* [equivalent binary tree](https://tour.golang.org/concurrency/7) with [solution](src/scripts/equivalentBinaryTree.go)
 
 ## Command (go tool)
 * create a module from the directory
