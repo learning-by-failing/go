@@ -14,11 +14,13 @@ Examples and code are or inspired from official [golang documentation](https://g
 * [functions](src/scripts/functions.go)
 * [array and slices](src/scripts/arrayAndSlices.go)
 * [maps](src/scripts/maps.go)
-* [structs](src/scripts/structs.go)
+* [structs](src/scripts/structs.go) and [interfaces](https://gobyexample.com/interfaces)
 * [concurrency](src/scripts/concurrency.go) vs [no_concurrency](src/scripts/no_concurrency.go)
 * [channel](src/scripts/channel.go)
 * [channel fibonacci](src/scripts/channel_fibonacci.go)
 * [equivalent binary tree](https://tour.golang.org/concurrency/7) with [solution](src/scripts/equivalentBinaryTree.go)
+* [Mutex](src/scripts/mutex.go)
+* [exercise webCrawler](https://tour.golang.org/concurrency/10) with [solution](src/scripts/webCrawler.go)
 
 ## Command (go tool)
 * create a module from the directory
