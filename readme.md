@@ -23,6 +23,10 @@ Examples and code are or inspired from official [golang documentation](https://g
 * [exercise webCrawler](https://tour.golang.org/concurrency/10) with [solution](src/scripts/webCrawler.go)
 
 ## Command (go tool)
+* help command 
+```
+go help {command}
+```
 * create a module from the directory
 ```
 go mod init 
@@ -34,4 +38,9 @@ go install {module}
 * Running tests
 ```
 go test
+```
+
+* build module
+```
+go build .
 ```
